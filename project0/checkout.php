@@ -1,14 +1,12 @@
 <!Doctype html>
 <html lang="zh-CN">
 <head>
-	<title>Menu</title>
+	<title>Check Out</title>
 	<link href="http://cdn.bootcss.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
-
 </head>
 <body>
 	<header>
-		<h1>Menu</h1>
-
+	Check Out
 	</header>
 
 </body>

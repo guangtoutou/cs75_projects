@@ -7,9 +7,17 @@
 </head>
 <body>
 	<header>
-		<h1>Menu</h1>
-
+	menu
 	</header>
+
+	<?php
+		$xml = simplexml_load_file("menu.xml");
+		$result = $xml->xpath("dish");
+		print_r($result);
+	?>
+
 
 </body>
 </html>
+
+

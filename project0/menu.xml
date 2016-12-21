@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<category name="Pizza" seq="1">
+		<dish name="Tomato + Cheese">
+			<price size="Sm">5.50</price>
+			<price size="lg">9.75</price>
+		</dish>
+		<dish name="Onions">
+			<price size="Sm">6.85</price>
+			<price size="lg">10.85</price>
+		</dish>
+		<dish name="Peppers">
+			<price size="Sm">6.85</price>
+			<price size="lg">.75</price>
+		</dish>
+	</category>
+	<category name="Speciality Pizzas" seq="2">
+		<dish name="Three Aces Special">
+			<price size="Sm">9.80</price>
+			<price size="lg">15.80</price>
+		</dish>
+		<dish name="Mediterranean Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella + Feta Cheese">
+			<price size="Sm">9.80</price>
+			<price size="lg">15.80</price>
+		</dish>
+		<dish name="Vegetarian Sliced Tomatoes, Onion, Peppers, Mushrooms, Broccoli, Mozzarella">
+			<price size="Sm">9.80</price>
+			<price size="lg">15.80</price>
+		</dish>
+	</category>
+	<category name="Special Dinners" seq="3">
+		<dish name="Chicken Wing Dinner">
+			<price>7.25</price>
+		</dish>
+		<dish name="Gyro Plate">
+			<price>7.25</price>
+		</dish>
+		<dish name="Chicken Figer Plate">
+			<price>7.25</price>
+		</dish>
+	</category>
+</menu>
