@@ -11,9 +11,12 @@
 	</header>
 
 	<?php
-		$xml = simplexml_load_file("menu.xml");
-		$result = $xml->xpath("dish");
-		print_r($result);
+		$menu = simplexml_load_file('menu.xml');
+		foreach($menu->category as $category){
+				echo $category['name'], "</br>";
+			foreach($category->dish as $dish)
+				echo $dish['name'], "</br>";	
+		}
 	?>
 
 
