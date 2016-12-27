@@ -13,17 +13,53 @@
 			<price size="Sm">6.85</price>
 			<price size="lg">.75</price>
 		</dish>
+		<dish name="Broccoli">
+			<price size="Sm">6.85</price>
+			<price size="lg">.75</price>
+		</dish>
+		<dish name="Fresh Garlic">
+			<price size="Sm">6.85</price>
+			<price size="lg">.75</price>
+		</dish>
+		<dish name="Mushrooms">
+			<price size="Sm">6.85</price>
+			<price size="lg">.75</price>
+		</dish>
+		<dish name="Fresh Spinach">
+			<price size="Sm">6.85</price>
+			<price size="lg">.75</price>
+		</dish>
+		<dish name="Anchovies">
+			<price size="Sm">6.85</price>
+			<price size="lg">.75</price>
+		</dish>
+		<dish name="Hamburg">
+			<price size="Sm">6.85</price>
+			<price size="lg">.75</price>
+		</dish>
 	</category>
 	<category name="Speciality Pizzas" seq="2">
 		<dish name="Three Aces Special">
 			<price size="Sm">9.80</price>
 			<price size="lg">15.80</price>
 		</dish>
-		<dish name="Mediterranean Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella + Feta Cheese">
+		<dish name="Mediterranean" ingridients="Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella + Feta Cheese">
 			<price size="Sm">9.80</price>
 			<price size="lg">15.80</price>
 		</dish>
-		<dish name="Vegetarian Sliced Tomatoes, Onion, Peppers, Mushrooms, Broccoli, Mozzarella">
+		<dish name="Vegetarian" ingridients="Sliced Tomatoes, Onion, Peppers, Mushrooms, Broccoli, Mozzarella">
+			<price size="Sm">9.80</price>
+			<price size="lg">15.80</price>
+		</dish>
+		<dish name="Meat Lovers" ingridients="Peperoni, Hamburg, Sausage + Bacon">
+			<price size="Sm">9.80</price>
+			<price size="lg">15.80</price>
+		</dish>
+		<dish name="Bbq Grilled Chicken" ingridients="Choice of Vegetables">
+			<price size="Sm">9.80</price>
+			<price size="lg">15.80</price>
+		</dish>
+		<dish name="Grecian Supreme" ingridients="Grilled Chicken, Feta Cheese, Tomatoes, Kalamata Olives">
 			<price size="Sm">9.80</price>
 			<price size="lg">15.80</price>
 		</dish>
@@ -35,7 +71,16 @@
 		<dish name="Gyro Plate">
 			<price>7.25</price>
 		</dish>
-		<dish name="Chicken Figer Plate">
+		<dish name="Chicken Finger Plate">
+			<price>7.25</price>
+		</dish>
+		<dish name="3 Piece Chicken Dinner">
+			<price>7.25</price>
+		</dish>
+		<dish name="Cheeseburger or Chicken Burger Plate">
+			<price>7.25</price>
+		</dish>
+		<dish name="Double-cheeseburger Plate">
 			<price>7.25</price>
 		</dish>
 	</category>

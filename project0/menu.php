@@ -19,14 +19,13 @@
 					echo "<div class='CategoryTitle' id='${category['seq']}'> ${category['name']}</div>";
 					echo '</div></div>';
 
-					echo '<div class="row"><div class="col-md-12">';
+					echo '<div class="row"><div class="col-md-12" style="">';
 					/*foreach($category->dish as $dish){
 						echo "<div class='DishBlock'> <img src='http://placehold.it/160X160'>${dish['name']}</div>";	
 					}*/
 					for($i=0; $i<count($category->dish); $i++){
 						$dish = $category->dish[$i];
-						echo "<div class='DishBlock'> <img src='http://placehold.it/160X160'>${dish['name']}</div>";
-						echo ($category->dish[$i]['name']);
+						echo "<div class='DishBlock'> <img src='http://placehold.it/120X120'>${dish['name']}</div>";
 					}
 					echo '</div></div>';
 				}
