@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Data</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="jquerydata" data-name="james" data-age="36">
+this is an exmample of jquery.data().
+</div>
+<div class="jquerydata" data-name="guangtoutou" data-age="36">
+this is an exmample of jquery.data().
+</div>
+<div class="jquerydata" data-name="ni ningning" data-age="36">
+this is an exmample of jquery.data().
+</div>
+
+<div class="link hello"><a>click here</a></div>
+
+<script type="text/javascript">
+  var $data = $(".jquerydata");
+  $data.each(function(){
+    var $this = $(this);
+    var data = $this.data();
+    document.write (data.name);
+  })
+
+  var $click = $(".link");
+  $click.each(function(){
+    var $this = $(this);
+    $this.on("click.hello1 mouseover",function(){alert("hello")});
+  })
+
+</script>
+
+</body>
+</html>
