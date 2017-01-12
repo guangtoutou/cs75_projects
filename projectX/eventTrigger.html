@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trigger an event</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="test">trigger a popup</div>
+<script type="text/javascript">
+    $("#test").on("sayhello", function(){
+    	console.log("hello");
+    	console.log(this);
+    	console.log($(this).html());
+    });
+    $("#test").trigger("sayhello");
+</script>
+
+</body>
+</html>

@@ -1,4 +1,5 @@
 <?php
+echo phpinfo();
 $d = dir("./");
 
 while(false !== ($e = $d->read()))
