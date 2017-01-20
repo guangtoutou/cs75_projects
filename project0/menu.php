@@ -6,9 +6,28 @@
 	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 	<link href="css/style.css" rel="stylesheet">
+	<style type="text/css">
+		.affix {
+			top: 0;
+			width: 100%;
+			z-index: 5;
+		}
+		.affix + .container {
+			padding-top: 70px;
+		}
+	</style>
 </head>
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<body>
+		<nav class="navbar" data-spy="affix" data-offset-top="0">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="#1">Pizza</a></li>
+			<li><a href="#2">Speciality Pizza</a></li>
+			<li><a href="#3">Special dinners</a></li>
+		  </ul>
+		</nav>
+
 	<div class="container">
+
 		<div class="row">
 
 			<div class="col-md-9">
@@ -32,13 +51,7 @@
 			?>
 			</div>
 			<div class="col-md-3 hidden-sm hidden-xs">
-				<nav id="myScrollspy">
-					<ul class="nav nav-pills nav-stacked">
-						<li><a href="#1">Pizza</a></li>
-						<li><a href="#2">Speciality Pizza</a></li>
-						<li><a href="#3">Special dinners</a></li>
-					</ul>
-				</nav>
+				About us
 			</div>
 		</div>
 	</div>
