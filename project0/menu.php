@@ -9,7 +9,6 @@
 	<style type="text/css">
 		.affix {
 			top: 0;
-			width: 100%;
 			z-index: 5;
 		}
 		.affix + .container {
@@ -18,19 +17,19 @@
 	</style>
 </head>
 <body>
-		<nav class="navbar" data-spy="affix" data-offset-top="0">
-		  <ul class="nav navbar-nav">
-			<li class="active"><a href="#1">Pizza</a></li>
-			<li><a href="#2">Speciality Pizza</a></li>
-			<li><a href="#3">Special dinners</a></li>
-		  </ul>
-		</nav>
 
 	<div class="container">
 
 		<div class="row">
 
 			<div class="col-md-9">
+				<div class="row"><div class="col-md-12" data-spy="affix" data-offset-top="20">				
+					<ul class="categoryNav">
+						<li class="active"><a href="#1">Pizza</a></li>
+						<li><a href="#2">Speciality Pizza</a></li>
+						<li><a href="#3">Special dinners</a></li>
+				 </ul>
+				</div></div>
 			<?php
 				$menu = simplexml_load_file('menu.xml');
 				foreach($menu->category as $category){

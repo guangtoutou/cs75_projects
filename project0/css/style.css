@@ -5,7 +5,7 @@ body{
 .CategoryTitle{
 	font-size: 24px;
 }
-/*
+
 .DishBlock{
 	width: 320px;
 	padding: 5px;
@@ -15,4 +15,10 @@ body{
 	background-color: white;
 	float: left;
 }
-*/
+.categoryNav{
+	list-style: none;
+	text-align: center;
+}
+.categoryNav li{
+	display: inline-block;
+}
