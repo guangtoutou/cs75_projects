@@ -8,7 +8,6 @@
 	<link href="css/style.css" rel="stylesheet">
 	<style type="text/css">
 		.affix {
-			top: 0;
 			z-index: 5;
 		}
 		.affix + .container {
@@ -17,13 +16,13 @@
 	</style>
 </head>
 <body>
-
+Welcome to our restaruant
 	<div class="container">
 
 		<div class="row">
 
 			<div class="col-md-9">
-				<div class="row"><div class="col-md-12" data-spy="affix" data-offset-top="20">				
+				<div class="row"><div class="col-md-12" data-spy="affix" data-offset-top="200" style="background-color: white">				
 					<ul class="categoryNav">
 						<li class="active"><a href="#1">Pizza</a></li>
 						<li><a href="#2">Speciality Pizza</a></li>
